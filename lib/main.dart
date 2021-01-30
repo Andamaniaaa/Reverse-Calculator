@@ -68,7 +68,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
           result = '${exp.evaluate(EvaluationType.REAL, cm)}';
 
         }catch(e){
-          result = "Hata";
+          result = "ERROR";
         }
       }
 
